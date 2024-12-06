@@ -1,0 +1,42 @@
+//  The dataset included in this project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
+// And it is copyrighted by [Xiaomi Corporation/ Xu Weikai] and is used under the terms specified by the dataset provider. Please refer to the dataset license for specific usage rights and restrictions.
+// For any commercial usage or redistribution of the dataset, please contact the copyright holder.
+
+[
+  {
+    "id": 888,
+    "case": {
+      "app": "计算器",
+      "query":
+        "Calculate 7*22-3"
+    },
+    "check_point": {
+      "package": "com.miui.calculator",
+      "activity": "com.miui.calculator",
+      "resource-id": "",
+      "text": ["&", "7", "乘", "2", "3"]
+    },
+    "skip_condition": {}
+  },
+  {
+    "id": 277,
+    "case": {
+      "package": "com.miui.calculator",
+      "app": "计算器",
+      "action": "",
+      "case_tag": "p5|intent",
+      "cid": "C248530013",
+      "feature": "",
+      "owner": " ",
+      "query":
+        "Calculate 7*2.2-4+1"
+    },
+    "check_point": {
+      "activity": "com.miui.calculator",
+      "resource-id": "",
+      "text": ["&", "7", "2", "加"]
+    },
+    "domain": "smartApp/other",
+    "skip_condition": {}
+  }
+]

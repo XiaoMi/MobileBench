@@ -1,0 +1,5551 @@
+[
+  {
+    "id": 1,
+    "query": [
+      "我想用喜马拉雅听口语天天练"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.ximalaya.ting.android/.host.activity.MainActivity",
+        "com.ximalaya.ting.android.host.activity.MainActivity"
+      ],
+      "text": "口语天天练",
+      "package": "com.ximalaya.ting.android"
+    },
+    "domain": "smartApp/Ximalaya"
+  },
+  {
+    "id": 2,
+    "query": [
+      "用喜马拉雅播放历史记录"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.ximalaya.ting.android/.host.activity.MainActivity",
+        "com.ximalaya.ting.android.host.activity.MainActivity"
+      ],
+      "text": [
+        "|",
+        "播放历史",
+        "历史"
+      ],
+      "package": "com.ximalaya.ting.android"
+    },
+    "domain": "smartApp/Ximalaya"
+  },
+  {
+    "id": 3,
+    "query": [
+      "打开便签"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "备忘",
+      "to_speak": ""
+    },
+    "domain": "smartApp/other"
+  },
+  {
+    "id": 4,
+    "query": [
+      "我要看照片"
+    ],
+    "check_point": {
+      "activity": "com.miui.gallery/.activity.HomePageActivity",
+      "resource-id": "",
+      "text": "照片",
+      "to_speak": ""
+    },
+    "domain": "smartApp/other"
+  },
+  {
+    "id": 5,
+    "query": [
+      "搜索北京市的照片"
+    ],
+    "check_point": {
+      "activity": "com.miui.gallery",
+      "resource-id": "",
+      "text": [
+        "|",
+        "北京市",
+        "截屏"
+      ],
+      "to_speak": ""
+    },
+    "domain": "smartApp/other"
+  },
+  {
+    "id": 6,
+    "query": [
+      "搜索昨天的照片"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.miui.gallery/.search.SearchActivity",
+        "com.miui.gallery/.search.resultpage.SearchResultActivity"
+      ],
+      "resource-id": "",
+      "text": "",
+      "to_speak": "",
+      "package": "com.miui.gallery"
+    },
+    "domain": "smartApp/other"
+  },
+  {
+    "id": 7,
+    "query": [
+      "打开携程旅行"
+    ],
+    "check_point": {
+      "activity": "ctrip.android.view",
+      "resource-id": "",
+      "text": "携程",
+      "to_speak": ""
+    },
+    "domain": "smartApp/other",
+    "app": "携程旅行"
+  },
+  {
+    "id": 8,
+    "query": [
+      "卸载高德地图"
+    ],
+    "check_point": {
+      "activity": "com.xiaomi.market/.ui.LocalAppsActivity",
+      "resource-id": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "smartApp/other"
+  },
+  {
+    "id": 9,
+    "query": [
+      "卸载高德地图"
+    ],
+    "check_point": {
+      "activity": "com.xiaomi.market/.ui.LocalAppsActivity",
+      "resource-id": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "smartApp/other"
+  },
+  {
+    "id": 10,
+    "query": [
+      "查看QQ好友动态"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "好友动态",
+      "to_speak": "",
+      "package": "com.tencent.mobileqq"
+    },
+    "domain": "smartApp/QQ",
+    "app": "QQ"
+  },
+  {
+    "id": 11,
+    "query": [
+      "我想发QQ信息"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "取消"
+      ],
+      "to_speak": "",
+      "package": "com.tencent.mobileqq"
+    },
+    "domain": "smartApp/QQ",
+    "app": "QQ"
+  },
+  {
+    "id": 12,
+    "query": [
+      "我想发条QQ信息给小爱"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "小爱",
+        "发送"
+      ],
+      "to_speak": "",
+      "package": "com.tencent.mobileqq"
+    },
+    "domain": "smartApp/QQ",
+    "app": "QQ"
+  },
+  {
+    "id": 13,
+    "query": [
+      "打开大众点评"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.dianping.v1/com.dianping.v1.NovaMainActivity",
+        "com.miui.home/.launcher.Launcher",
+        "com.dianping.v1"
+      ],
+      "resource-id": "",
+      "text": [
+        "|",
+        "还没有",
+        "安装",
+        "推荐"
+      ],
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping"
+  },
+  {
+    "id": 14,
+    "query": [
+      "用大众点评搜索美食"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "排序",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 15,
+    "query": [
+      "附近有什么好吃的"
+    ],
+    "check_point": {
+      "activity": "com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity",
+      "resource-id": "",
+      "text": "美食",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 16,
+    "query": [
+      "用大众点评搜附近的火锅|我想用大众点评找一下附近的火锅店"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "火锅",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 17,
+    "query": [
+      "用大众点评查找知春路附近的美食"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "知春路",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 18,
+    "query": [
+      "打开大众点评收藏"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.dianping.main.login.picassologin.LoginLiteActivity",
+        "com.miui.home/.launcher.Launcher",
+        "com.dianping.v1"
+      ],
+      "resource-id": "",
+      "text": [
+        "|",
+        "登录",
+        "相关收藏",
+        "还没有",
+        "安装"
+      ],
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 19,
+    "query": [
+      "用大众点评搜索周边游"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1/com.meituan.android.travel.homepage.TripHomepageActivity",
+      "resource-id": "",
+      "text": "",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 20,
+    "query": [
+      "用大众点评搜索酒店"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1/com.dianping.hotel.home.HotelHomeActivity",
+      "resource-id": "",
+      "text": "",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 21,
+    "query": [
+      "用大众点评搜索休闲娱乐"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "休闲",
+        "综合"
+      ],
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 22,
+    "query": [
+      " 打开大众点评亲子榜"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1",
+      "resource-id": "",
+      "text": "儿童",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 23,
+    "query": [
+      " 打开大众点评酒店榜"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1",
+      "resource-id": "",
+      "text": "酒店",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 24,
+    "query": [
+      " 打开大众点评丽人榜"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1",
+      "resource-id": "",
+      "text": "美发",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 25,
+    "query": [
+      " 打开大众点评购物榜"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1",
+      "resource-id": "",
+      "text": [
+        "|",
+        "购物",
+        "商场"
+      ],
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 26,
+    "query": [
+      " 打开大众点评休娱榜"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1",
+      "resource-id": "",
+      "text": [
+        "|",
+        "吃喝玩乐",
+        "酒吧",
+        "洗浴"
+      ],
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 27,
+    "query": [
+      " 打开大众点评景点榜"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1",
+      "resource-id": "",
+      "text": "景点",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 28,
+    "query": [
+      " 打开大众点评美食榜"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1",
+      "resource-id": "",
+      "text": "美食",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 29,
+    "query": [
+      "  打开大众点评网红店榜"
+    ],
+    "check_point": {
+      "activity": "com.dianping.v1",
+      "resource-id": "",
+      "text": "网红",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 30,
+    "query": [
+      "附近有什么好玩的"
+    ],
+    "check_point": {
+      "activity": "com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity",
+      "text": "休闲玩乐",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping"
+  },
+  {
+    "id": 31,
+    "query": [
+      "用大众点评搜索KTV"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "排序",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 32,
+    "query": [
+      "用大众点评搜索美发"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "排序",
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 33,
+    "query": [
+      "用大众点评打开附近的火锅"
+    ],
+    "check_point": {
+      "activity": "",
+      "text": [
+        "火锅",
+        "搜索"
+      ],
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping"
+  },
+  {
+    "id": 34,
+    "query": [
+      "用大众点评搜索电影"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "电影",
+        "影院"
+      ],
+      "to_speak": "",
+      "package": "com.dianping.v1"
+    },
+    "domain": "smartApp/Dianping",
+    "app": "大众点评"
+  },
+  {
+    "id": 35,
+    "query": [
+      "打开拼多多充值中心|拼多多充话费"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "充值中心"
+      ],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 36,
+    "query": [
+      "拼多多客服"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.xunmeng.pinduoduo/.activity.NewPageActivity|com.xunmeng.pinduoduo/.login.LoginActivity",
+        "com.xunmeng.pinduoduo.login.LoginActivity"
+      ],
+      "resource-id": "",
+      "text": [
+        "拼多多官方客服|微信登录"
+      ],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 37,
+    "query": [
+      "拼多多收金币|打开拼多多金猪赚大钱"
+    ],
+    "check_point": {
+      "activity": "com.xunmeng.pinduoduo",
+      "resource-id": "",
+      "text": "",
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 38,
+    "query": [
+      "打开拼多多断码清仓"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "断码清仓"
+      ],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 39,
+    "query": [
+      "打开拼多多限时秒杀"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "限时秒杀"
+      ],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 40,
+    "query": [
+      "打开拼多多"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.xunmeng.pinduoduo/.login.LoginActivity",
+        "com.xunmeng.pinduoduo.login.LoginActivity|com.xunmeng.pinduoduo/.ui.activity.HomeActivity",
+        "com.xunmeng.pinduoduo.ui.activity.HomeActivity"
+      ],
+      "resource-id": "",
+      "text": [],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 41,
+    "query": [
+      "拼多多现金签到|拼多多签到|打开拼多多现金签到"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.xunmeng.pinduoduo/.activity.NewPageActivity",
+        "com.xunmeng.pinduoduo.activity.NewPageActivity|com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.login.LoginActivity|com.xunmeng.pinduoduo/.login.LoginActivity",
+        "com.xunmeng.pinduoduo.login.LoginActivity"
+      ],
+      "resource-id": "",
+      "text": [
+        "现金|微信登录|红包"
+      ],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 42,
+    "query": [
+      "打开拼多多搜索纸巾"
+    ],
+    "check_point": {
+      "activity": "com.xunmeng.pinduoduo/.activity.NewPageActivity",
+      "resource-id": "",
+      "text": [
+        "纸巾"
+      ],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 43,
+    "query": [
+      "拼多多种树|拼多多浇水|打开拼多多多多果园|打开拼多多农场|微信登录"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "多多果园|开始种植"
+      ],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 44,
+    "query": [
+      "打开拼多多搜索"
+    ],
+    "check_point": {
+      "activity": "com.xunmeng.pinduoduo",
+      "resource-id": "",
+      "text": [
+        "搜索"
+      ],
+      "to_speak": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo",
+    "app": "拼多多"
+  },
+  {
+    "id": 45,
+    "query": [
+      "拼多多快递"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.xunmeng.pinduoduo/.activity.NewPageActivity",
+        "com.xunmeng.pinduoduo.activity.NewPageActivity|com.xunmeng.pinduoduo/.login.LoginActivity",
+        "com.xunmeng.pinduoduo.login.LoginActivity"
+      ],
+      "text": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo"
+  },
+  {
+    "id": 46,
+    "query": [
+      "查看拼多多订单"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.home/.launcher.Launcher",
+        "com.miui.home.launcher.Launcher|com.xunmeng.pinduoduo/.login.LoginActivity",
+        "com.xunmeng.pinduoduo.login.LoginActivity"
+      ],
+      "text": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo"
+  },
+  {
+    "id": 47,
+    "query": [
+      "拼多多物流"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.home/.launcher.Launcher",
+        "com.miui.home.launcher.Launcher|com.xunmeng.pinduoduo/.login.LoginActivity",
+        "com.xunmeng.pinduoduo.login.LoginActivity"
+      ],
+      "text": "",
+      "package": "com.xunmeng.pinduoduo"
+    },
+    "domain": "smartApp/pinDuoDuo"
+  },
+  {
+    "id": 48,
+    "query": [
+      "播放爱奇艺离线视频|打开爱奇艺播放离线视频"
+    ],
+    "check_point": {
+      "activity": "com.qiyi.video/org.qiyi.android.video.ui.phone.download.PhoneDownloadVideoActivity",
+      "resource-id": "",
+      "text": [
+        "|",
+        "本地视频",
+        "下载"
+      ],
+      "to_speak": "",
+      "package": "com.qiyi.video"
+    },
+    "domain": "smartApp/IQIYI",
+    "app": "爱奇艺"
+  },
+  {
+    "id": 49,
+    "query": [
+      "打开爱奇艺会员页面"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "VIP会员",
+      "to_speak": "",
+      "package": "com.qiyi.video"
+    },
+    "domain": "smartApp/IQIYI",
+    "app": "爱奇艺"
+  },
+  {
+    "id": 50,
+    "query": [
+      "打开爱奇艺我的"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "登录",
+        "观看历史"
+      ],
+      "to_speak": "",
+      "package": "com.qiyi.video"
+    },
+    "domain": "smartApp/IQIYI",
+    "app": "爱奇艺"
+  },
+  {
+    "id": 51,
+    "query": [
+      "打开爱奇艺随刻视频"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "随刻视频",
+      "to_speak": "",
+      "package": "com.qiyi.video"
+    },
+    "domain": "smartApp/IQIYI",
+    "app": "爱奇艺"
+  },
+  {
+    "id": 52,
+    "query": [
+      "打开爱奇艺播放战狼二"
+    ],
+    "check_point": {
+      "activity": "com.qiyi.video/org.iqiyi.video.activity.PlayerActivity",
+      "resource-id": "",
+      "text": "",
+      "to_speak": "",
+      "package": "com.qiyi.video"
+    },
+    "domain": "smartApp/IQIYI",
+    "app": "爱奇艺"
+  },
+  {
+    "id": 53,
+    "query": [
+      "爱奇艺风云榜"
+    ],
+    "check_point": {
+      "activity": "com.qiyi.video/org.qiyi.android.video.activitys.RankActivity",
+      "resource-id": "",
+      "text": [
+        "|",
+        "总榜",
+        "热度"
+      ],
+      "to_speak": "",
+      "package": "com.qiyi.video"
+    },
+    "domain": "smartApp/IQIYI",
+    "app": "爱奇艺"
+  },
+  {
+    "id": 54,
+    "query": [
+      "打开爱奇艺扫一扫"
+    ],
+    "check_point": {
+      "activity": "com.qiyi.video/org.qiyi.pluginlibrary.component.InstrActivityProxy1",
+      "text": [
+        "|",
+        "明星识别",
+        "找片搜据",
+        "识别"
+      ],
+      "package": "com.qiyi.video"
+    },
+    "domain": "smartApp/IQIYI"
+  },
+  {
+    "id": 55,
+    "query": [
+      "打开爱奇艺我的收藏"
+    ],
+    "check_point": {
+      "activity": "",
+      "text": [
+        "|",
+        "收藏",
+        "登录"
+      ],
+      "package": "com.qiyi.video"
+    },
+    "domain": "smartApp/IQIYI"
+  },
+  {
+    "id": 56,
+    "query": [
+      "打开QQ音乐"
+    ],
+    "check_point": {
+      "activity": "com.tencent.qqmusic",
+      "resource-id": "",
+      "text": "",
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 57,
+    "query": [
+      "打开QQ音乐搜索"
+    ],
+    "check_point": {
+      "activity": "com.tencent.qqmusic/.activity.AppStarterActivity",
+      "or": "true",
+      "resource-id": "com.miui.voiceassist:id/rtl_music_info",
+      "text": "",
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 58,
+    "query": [
+      "打开QQ音乐放一首歌"
+    ],
+    "check_point": {
+      "activity": "",
+      "or": "true",
+      "resource-id": "com.miui.voiceassist:id/rtl_music_info",
+      "teardown": [
+        "音量调到最小"
+      ],
+      "text": [
+        "|",
+        "音乐",
+        "音乐推荐",
+        "微信登录",
+        "歌单"
+      ],
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 59,
+    "query": [
+      "播放QQ音乐"
+    ],
+    "check_point": {
+      "activity": "com.tencent.qqmusic",
+      "or": "true",
+      "resource-id": "com.miui.voiceassist:id/rtl_music_info",
+      "text": "",
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 60,
+    "query": [
+      "用QQ音乐播放摇滚乐"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "com.miui.voiceassist:id/persist_card_layout",
+      "text": [
+        "QQ音乐"
+      ],
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 61,
+    "query": [
+      "打开QQ音乐播放张碧晨和杨宗纬的歌"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "QQ音乐",
+        "张碧晨",
+        "杨宗纬"
+      ],
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 62,
+    "query": [
+      "打开QQ音乐流行指数榜"
+    ],
+    "check_point": {
+      "activity": "com.tencent.qqmusic",
+      "resource-id": "",
+      "text": [
+        "|",
+        "流行指数",
+        "更新"
+      ],
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 63,
+    "query": [
+      "播放QQ音乐我喜欢的音乐"
+    ],
+    "check_point": {
+      "activity": "",
+      "text": [
+        "|",
+        "QQ音乐",
+        "我喜欢",
+        "微信登录",
+        "正在播放"
+      ],
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 64,
+    "query": [
+      "播放QQ音乐新歌推荐"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "com.miui.voiceassist:id/voice_bar_right_layout|com.miui.voiceassist:id/miui_music_content",
+      "text": [
+        "新歌|新碟|最新"
+      ],
+      "to_speak": "",
+      "package": "com.tencent.qqmusic"
+    },
+    "domain": "smartApp/QQmusic",
+    "app": "QQ音乐"
+  },
+  {
+    "id": 65,
+    "query": [
+      "打开微博查看艾特我的内容"
+    ],
+    "check_point": {
+      "text": [
+        "所有微博|登录"
+      ],
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 66,
+    "query": [
+      "打开微博查看我的评论|打开微博查看评论"
+    ],
+    "check_point": {
+      "text": "所有评论",
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 67,
+    "query": [
+      "打开微博查看点赞"
+    ],
+    "check_point": {
+      "text": [
+        "赞",
+        "设置"
+      ],
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 68,
+    "query": [
+      "打开微博看新闻"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.sina.weibo/.MainTabActivity",
+        "com.sina.weibo.MainTabActivity|com.sina.weibo/.VisitorMainTabActivity",
+        "com.sina.weibo.VisitorMainTabActivity"
+      ],
+      "text": [
+        "热门"
+      ],
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 69,
+    "query": [
+      "打开微博看榜单"
+    ],
+    "check_point": {
+      "text": [
+        "热门微博"
+      ],
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 70,
+    "query": [
+      "打开微博看热搜"
+    ],
+    "check_point": {
+      "text": [
+        "热搜"
+      ],
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 71,
+    "query": [
+      "发微博说今天天气很好"
+    ],
+    "check_point": {
+      "activity": "com.sina.weibo",
+      "text": [
+        "|",
+        "今天天气很好",
+        "登录"
+      ],
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 72,
+    "query": [
+      "打开微博看一下视频"
+    ],
+    "check_point": {
+      "activity": "com.sina.weibo",
+      "text": "视频",
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 73,
+    "query": [
+      "打开微博查看艾特我的内容|打开微博查看@我的内容"
+    ],
+    "check_point": {
+      "activity": "com.sina.weibo",
+      "text": "所有微博",
+      "to_speak": "",
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo",
+    "app": "微博"
+  },
+  {
+    "id": 74,
+    "query": [
+      "打开微博查看好友圈"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.sina.weibo/.MainTabActivity",
+        "com.sina.weibo.MainTabActivity"
+      ],
+      "text": [
+        "关注",
+        "推荐"
+      ],
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo"
+  },
+  {
+    "id": 75,
+    "query": [
+      {
+        "uri": "sinaweibo://searchall?q=武汉解封&luicode=10000493&lfid=xiaomi_search_gengduo_170317&open_direct=1&finish=true"
+      }
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.sina.weibo/.page.SearchResultActivity",
+        "com.sina.weibo.page.SearchResultActivity|com.sina.weibo/com.sina.weibo.page.SearchResultActivity"
+      ],
+      "text": [
+        "|",
+        "武汉解封",
+        "武汉"
+      ],
+      "package": "com.sina.weibo"
+    },
+    "domain": "smartApp/weibo"
+  },
+  {
+    "id": 76,
+    "query": [
+      "打开抖音首页"
+    ],
+    "check_point": {
+      "activity": "com.ss.android.ugc.aweme",
+      "text": [
+        "推荐",
+        "首页"
+      ],
+      "package": "com.ss.android.ugc.aweme"
+    },
+    "domain": "smartApp/douyin"
+  },
+  {
+    "id": 77,
+    "query": [
+      "打开抖音热搜榜|打开抖音热搜"
+    ],
+    "check_point": {
+      "activity": "",
+      "text": [
+        "|",
+        "热门",
+        "更新"
+      ],
+      "package": "com.ss.android.ugc.aweme"
+    },
+    "domain": "smartApp/douyin"
+  },
+  {
+    "id": 78,
+    "query": [
+      "打开抖音关注"
+    ],
+    "check_point": {
+      "activity": "com.ss.android.ugc.aweme",
+      "text": [
+        "好友|登录|关注"
+      ],
+      "package": "com.ss.android.ugc.aweme"
+    },
+    "domain": "smartApp/douyin"
+  },
+  {
+    "id": 79,
+    "query": [
+      "打开抖音消息"
+    ],
+    "check_point": {
+      "activity": "",
+      "text": [
+        "互动消息|登录"
+      ],
+      "package": "com.ss.android.ugc.aweme"
+    },
+    "domain": "smartApp/douyin"
+  },
+  {
+    "id": 80,
+    "query": [
+      "打开抖音看视频"
+    ],
+    "check_point": {
+      "activity": "",
+      "text": "推荐",
+      "package": "com.ss.android.ugc.aweme"
+    },
+    "domain": "smartApp/douyin"
+  },
+  {
+    "id": 81,
+    "query": [
+      "打开抖音搜索搞笑视频"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.search.activity.SearchResultActivity|com.ss.android.ugc.aweme/.search.activity.SearchResultActivity",
+        "com.ss.android.ugc.aweme.search.activity.SearchResultActivity|com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.search.activity.SearchResultActivity"
+      ],
+      "text": [
+        "搞笑视频"
+      ],
+      "package": "com.ss.android.ugc.aweme"
+    },
+    "domain": "smartApp/douyin",
+    "app": "douyin"
+  },
+  {
+    "id": 82,
+    "query": [
+      "帮我记一下明天要和小明开会"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "明天要和小明开会",
+        "查询最新记忆|备忘录"
+      ],
+      "to_speak": "",
+      "package": "com.miui.notes"
+    },
+    "domain": "todoList"
+  },
+  {
+    "id": 83,
+    "query": [
+      "在便签中搜索开会"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "开会",
+        "笔记|待办"
+      ],
+      "to_speak": "",
+      "package": "com.miui.notes"
+    },
+    "domain": "todoList"
+  },
+  {
+    "id": 84,
+    "query": [
+      "新建便签"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "标题",
+        "开始书写或"
+      ],
+      "to_speak": "",
+      "package": "com.miui.notes"
+    },
+    "domain": "todoList"
+  },
+  {
+    "id": 85,
+    "query": [
+      "打开笔记"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.notes/.ui.NotesListActivity",
+        "com.miui.notes.ui.NotesListActivity"
+      ],
+      "text": [
+        "笔记",
+        "待办"
+      ],
+      "package": "com.miui.notes"
+    },
+    "domain": "todoList"
+  },
+  {
+    "id": 86,
+    "query": [
+      "在便签中搜索买菜"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.notes/.ui.NotesListActivity",
+        "com.miui.notes.ui.NotesListActivity"
+      ],
+      "text": [
+        "笔记|买菜"
+      ],
+      "package": "com.miui.notes"
+    },
+    "domain": "todoList"
+  },
+  {
+    "id": 87,
+    "query": [
+      {
+        "uri": "intent:#Intent;action=com.miui.notes.action.SEARCH;S.com.miui.text.search=${我的想法};end"
+      }
+    ],
+    "check_point": {
+      "activity": "",
+      "text": "我的想法",
+      "package": "com.miui.notes"
+    },
+    "domain": "todoList"
+  },
+  {
+    "id": 88,
+    "query": [
+      "打开录音机"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.soundrecorder/.SoundRecorder",
+        "com.android.soundrecorder.SoundRecorder"
+      ],
+      "text": "高品质音质",
+      "package": "com.android.soundrecorder"
+    },
+    "domain": "recorder"
+  },
+  {
+    "id": 89,
+    "query": [
+      "打开录音文件"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.soundrecorder/.RecordPreviewActivity",
+        "com.android.soundrecorder.RecordPreviewActivity"
+      ],
+      "text": "录音列表",
+      "package": "com.android.soundrecorder"
+    },
+    "domain": "recorder"
+  },
+  {
+    "id": 90,
+    "query": [
+      "打开录音设置"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.soundrecorder/.SoundRecorderSettings",
+        "com.android.soundrecorder.SoundRecorderSettings"
+      ],
+      "text": [
+        "|",
+        "录音机",
+        "听筒模式"
+      ],
+      "package": "com.android.soundrecorder"
+    },
+    "domain": "recorder"
+  },
+  {
+    "id": 91,
+    "query": [
+      "打开小米视频会员页面"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "会员精选",
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 92,
+    "query": [
+      "打开小米视频我的收藏|用小米视频打开我的收藏"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "我的收藏",
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 93,
+    "query": [
+      "打开小米视频影视页面"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "剧集",
+        "正在热播",
+        "动漫",
+        "全网热播"
+      ],
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 94,
+    "query": [
+      "打开小米视频我的视频|打开小米视频我的"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "本地视频",
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 95,
+    "query": [
+      "打开小米视频播放历史|打开小米视频历史记录"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "播放历史",
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 96,
+    "query": [
+      "打开小米视频我的离线"
+    ],
+    "check_point": {
+      "activity": "com.miui.video/.feature.mine.offline.MyOfflineActivity",
+      "resource-id": "",
+      "text": [
+        "|",
+        "我的离线",
+        "我的下载"
+      ],
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 97,
+    "query": [
+      "打开小米视频搜索暗战"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": "暗战",
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 98,
+    "query": [
+      "打开小米视频搜索熊出没"
+    ],
+    "check_point": {
+      "activity": "com.miui.video/.feature.search",
+      "resource-id": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 99,
+    "query": [
+      "打开小米视频军事频道"
+    ],
+    "check_point": {
+      "activity": "com.miui.video",
+      "resource-id": "",
+      "text": [
+        "军事"
+      ],
+      "to_speak": ""
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 100,
+    "query": [
+      "打开小米视频直播"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.video/.feature.main.MainTabActivity",
+        "com.miui.video.feature.main.MainTabActivity"
+      ],
+      "text": "影视",
+      "package": "com.miui.video"
+    },
+    "domain": "smartApp/XiaomiVideo"
+  },
+  {
+    "id": 101,
+    "query": [
+      "美术的特点是什么"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "包括",
+        "以下",
+        "个",
+        "1",
+        "表达",
+        "通过",
+        "不"
+      ],
+      "to_speak": ""
+    },
+    "domain": "QAbot"
+  },
+  {
+    "id": 102,
+    "query": [
+      "五氧化二磷会不会跟盐酸反应"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "会",
+        "酸碱中和"
+      ],
+      "to_speak": ""
+    },
+    "domain": "QAbot"
+  },
+  {
+    "id": 103,
+    "query": [
+      "麻雀飞得快还是老鹰飞得快"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "or": "ture",
+      "resource-id": "",
+      "text": "比",
+      "to_speak": "老鹰飞得快"
+    },
+    "domain": "QAbot"
+  },
+  {
+    "id": 104,
+    "query": [
+      "辽宁的211大学"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "两所",
+        "是",
+        "大连理工大学",
+        "东北大学"
+      ],
+      "to_speak": ""
+    },
+    "domain": "QAbot"
+  },
+  {
+    "id": 105,
+    "query": [
+      "清明节是几号"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "月|日",
+        "农历"
+      ],
+      "to_speak": ""
+    },
+    "domain": "Time"
+  },
+  {
+    "id": 106,
+    "query": [
+      "今天是几号"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "月",
+        "周",
+        "农历"
+      ],
+      "to_speak": ""
+    },
+    "domain": "Time"
+  },
+  {
+    "id": 107,
+    "query": [
+      "今天是几号|今天几号了"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "teardown": [
+        "打开静音模式"
+      ],
+      "text": [
+        "周"
+      ],
+      "to_speak": ""
+    },
+    "domain": "Time"
+  },
+  {
+    "id": 108,
+    "query": [
+      "今天几月几号"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/flt_float_board",
+      "teardown": [],
+      "text": [
+        "|",
+        "年",
+        "月",
+        "日"
+      ]
+    },
+    "domain": "Time"
+  },
+  {
+    "id": 109,
+    "query": [
+      "中元节是农历几月几号"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/flt_float_board",
+      "teardown": [],
+      "text": [
+        "|",
+        "农历",
+        "年",
+        "月",
+        "日"
+      ]
+    },
+    "domain": "Time"
+  },
+  {
+    "id": 110,
+    "query": [
+      "7月1日是什么节日"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/flt_float_board",
+      "teardown": [],
+      "text": [
+        "|",
+        "建党节",
+        "香港回归纪念日",
+        "国际建筑日和加拿大全国共假日",
+        "农历",
+        "年",
+        "月",
+        "日"
+      ]
+    },
+    "domain": "Time"
+  },
+  {
+    "id": 111,
+    "query": [
+      "7月15日是什么节日"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/flt_float_board",
+      "teardown": [],
+      "text": "7月15日不是任何节日"
+    },
+    "domain": "Time"
+  },
+  {
+    "id": 112,
+    "query": [
+      "明天早上0点叫我起床"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "status": {
+        "checked": "true"
+      },
+      "text": [
+        "00:00",
+        "上午",
+        "起床",
+        "com.miui.voiceassist:id/sbtn_switch",
+        "com.miui.voiceassist:id/nrcv_list"
+      ],
+      "to_speak": "",
+      "package": "com.android.deskclock"
+    },
+    "domain": "alarm"
+  },
+  {
+    "id": 113,
+    "query": [
+      "每周一早上八点叫我早点起床"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "08:00",
+        "上午",
+        "起床"
+      ],
+      "to_speak": "",
+      "package": "com.android.deskclock"
+    },
+    "domain": "alarm"
+  },
+  {
+    "id": 114,
+    "query": [
+      "工作日早上八点叫我起床"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "起床",
+        "08:00"
+      ],
+      "to_speak": "",
+      "package": "com.android.deskclock"
+    },
+    "domain": "alarm"
+  },
+  {
+    "id": 115,
+    "query": [
+      "打开闹钟"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.deskclock/.DeskClocKTabActivity",
+        "com.android.deskclock.DeskClocKTabActivity|com.miui.home/.launcher.Launcher",
+        "com.miui.home.launcher.Launcher"
+      ],
+      "nd": "",
+      "resource-id": "",
+      "text": "",
+      "to_speak": "",
+      "package": "com.android.deskclock"
+    },
+    "domain": "alarm"
+  },
+  {
+    "id": 116,
+    "query": [
+      "查询倒计时"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/imv_pause",
+      "text": "",
+      "to_speak": "",
+      "package": "com.android.deskclock"
+    },
+    "domain": "alarm"
+  },
+  {
+    "id": 117,
+    "query": [
+      "修改倒计时"
+    ],
+    "check_point": {
+      "activity": ".DeskClockTabActivity",
+      "nd": "",
+      "resource-id": "",
+      "text": "计时",
+      "to_speak": "",
+      "package": "com.android.deskclock"
+    },
+    "domain": "alarm"
+  },
+  {
+    "id": 118,
+    "query": [
+      "打开小爱实验室"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "小爱闹铃",
+        "智能输入"
+      ],
+      "to_speak": "",
+      "package": "com.android.deskclock"
+    },
+    "domain": "alarm"
+  },
+  {
+    "id": 119,
+    "query": [
+      "145乘1加2等于多少"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "答案",
+        "复制结果",
+        "147",
+        "计算器"
+      ],
+      "to_speak": "",
+      "package": "com.miui.calculator"
+    },
+    "domain": "arith"
+  },
+  {
+    "id": 120,
+    "query": [
+      "一百九十九元打八点八折"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "金额是",
+        "175.12",
+        "计算器"
+      ],
+      "to_speak": "",
+      "package": "com.miui.calculator"
+    },
+    "domain": "arith"
+  },
+  {
+    "id": 121,
+    "query": [
+      "一盎司有多重"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "等于",
+        "千克"
+      ],
+      "to_speak": "",
+      "package": "com.miui.calculator"
+    },
+    "domain": "arith"
+  },
+  {
+    "id": 122,
+    "query": [
+      "妈妈的妈妈的儿子叫？"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": "计算器",
+      "to_speak": "舅舅",
+      "package": "com.miui.calculator"
+    },
+    "domain": "arith"
+  },
+  {
+    "id": 123,
+    "query": [
+      "3分之一加2分之一等于多少"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "复制结果",
+        "结果转小数"
+      ],
+      "to_speak": "",
+      "package": "com.miui.calculator"
+    },
+    "domain": "arith"
+  },
+  {
+    "id": 124,
+    "query": [
+      "根号3等于多少"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "1.732",
+        "答案"
+      ],
+      "to_speak": "",
+      "package": "com.miui.calculator"
+    },
+    "domain": "arith"
+  },
+  {
+    "id": 125,
+    "query": [
+      "2的自然对数"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "答案",
+        "0.69"
+      ],
+      "to_speak": "",
+      "package": "com.miui.calculator"
+    },
+    "domain": "arith"
+  },
+  {
+    "id": 126,
+    "query": [
+      "10的阶乘"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "答案"
+      ],
+      "to_speak": "",
+      "package": "com.miui.calculator"
+    },
+    "domain": "arith"
+  },
+  {
+    "id": 127,
+    "query": [
+      "今天大盘走势如何"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "股市行情",
+        "指数",
+        "上涨"
+      ],
+      "to_speak": ""
+    },
+    "domain": "stock"
+  },
+  {
+    "id": 128,
+    "query": [
+      "今天沪市大盘走势如何"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": "上证指数",
+      "to_speak": ""
+    },
+    "domain": "stock"
+  },
+  {
+    "id": 129,
+    "query": [
+      "现在农业银行股价多少"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "农业银",
+        "收盘价|交易日|价格|元|当前价|同花顺"
+      ],
+      "to_speak": ""
+    },
+    "domain": "stock"
+  },
+  {
+    "id": 130,
+    "query": [
+      "今天招商银行涨了吗"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "招商银行",
+        "收盘价|最高价|交易日|价格|元|当前价|600036"
+      ],
+      "to_speak": ""
+    },
+    "domain": "stock"
+  },
+  {
+    "id": 131,
+    "query": [
+      "香蕉多少钱这句话用英语怎么说"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "How much|How Much",
+        "香蕉多少钱",
+        "翻译"
+      ],
+      "to_speak": ""
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 132,
+    "query": [
+      "筷子用英语怎么说？"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "筷子",
+        "翻译"
+      ],
+      "to_speak": ""
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 133,
+    "query": [
+      "每日英语"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "翻译|扇贝"
+      ],
+      "to_speak": ""
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 134,
+    "query": [
+      "我想飞起来英语怎么说"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/cp_content_layout",
+      "text": [
+        "翻译",
+        "英语",
+        "复制"
+      ],
+      "to_speak": ""
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 135,
+    "query": [
+      "对话翻译"
+    ],
+    "check_point": {
+      "activity": "com.xiaomi.voiceassistant.instruction.card.translation.TranslationChatActivity",
+      "nd": "",
+      "resource-id": "",
+      "text": [],
+      "to_speak": ""
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 136,
+    "query": [
+      "你好的粤语"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "粤语",
+        "翻译"
+      ],
+      "to_speak": ""
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 137,
+    "query": [
+      "打开翻译"
+    ],
+    "check_point": {
+      "resource-id": "com.xiaomi.aiasst.vision:id/menu_mic|com.xiaomi.aiasst.vision:id/window_title_view|com.xiaomi.aiasst.vision:id/setting_view",
+      "teardown": [],
+      "text": [
+        "小爱翻译",
+        "输入单词或句子",
+        "AI字幕",
+        "屏幕翻译",
+        "同声传译"
+      ]
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 138,
+    "query": [
+      "打开AI字幕"
+    ],
+    "check_point": {
+      "resource-id": "com.xiaomi.aiasst.vision:id/play_translate",
+      "teardown": [],
+      "text": [
+        "英-中",
+        "正在聆听系统声音...|未识别到声音，收音已暂停"
+      ]
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 139,
+    "query": [
+      ""
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.browser/.BrowserActivity",
+        "com.android.browser.BrowserActivity"
+      ],
+      "text": [
+        "|",
+        "粤语",
+        "粤语功能"
+      ],
+      "package": "com.android.browser"
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 140,
+    "query": [
+      ""
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.browser/.BrowserActivity",
+        "com.android.browser.BrowserActivity"
+      ],
+      "text": [
+        "|",
+        "AI翻译",
+        "AI翻译"
+      ],
+      "package": "com.android.browser"
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 141,
+    "query": [
+      "同声传译"
+    ],
+    "check_point": {
+      "activity": "",
+      "image": 73,
+      "resource-id": "com.miui.voiceassist:id/iv_translation_float_tts",
+      "teardown": [],
+      "text": [
+        ""
+      ]
+    },
+    "domain": "translation"
+  },
+  {
+    "id": 142,
+    "query": [
+      "百科一下熊大"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "百科",
+        "熊大"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 143,
+    "query": [
+      "食人花"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "食人花",
+        "百科|问答"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 144,
+    "query": [
+      "食人花"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "食人花",
+        "百科|问答"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 145,
+    "query": [
+      "地震最多的国家"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "日本",
+        "地震最多"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 146,
+    "query": [
+      "陆地上奔跑最快的动物"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "猎豹"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 147,
+    "query": [
+      "历史上的今天"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "今天是"
+      ],
+      "to_speak": "历史上的今天"
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 148,
+    "query": [
+      "习近平是怎么样的人"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "主席"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 149,
+    "query": [
+      {
+        "uri": "intent://i.ai.mi.com/h5/ai-ak-fe/#/topic-detail-new?id=22#Intent;scheme=https;component=com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity;launchFlags=0x10000000;S.statusBarTextBlack=false;S.webFullScreen=true;B.useCommonBg=true;B.showVoiceBall=true;end"
+      }
+    ],
+    "check_point": {
+      "activity": "com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity",
+      "text": "珍稀动物"
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 150,
+    "query": [
+      {
+        "uri": "intent://home?query=\"本草纲目\"&appid=com.xiaomi&engine=baidu&miref=newsout_voiceassistant_searchmusic#Intent;scheme=mibrowser;launchFlags=0x10000000;end"
+      }
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.browser/.BrowserActivity",
+        "com.android.browser.BrowserActivity"
+      ],
+      "text": "本草纲目",
+      "package": "com.android.browser"
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 151,
+    "query": [
+      "百科一下狐狸"
+    ],
+    "check_point": {
+      "image": "76",
+      "resource-id": "",
+      "teardown": [],
+      "text": "狐狸",
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 152,
+    "query": [
+      "吴京是什么梗"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "teardown": [],
+      "text": [
+        "吴京",
+        "相关图片",
+        "更多图片",
+        "保存"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 153,
+    "query": [
+      "在逃未婚妻"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "teardown": [],
+      "text": [
+        "未婚夫"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 154,
+    "query": [
+      "和赛车手谈恋爱"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "teardown": [],
+      "text": [
+        "你的赛车手在赛道终点等你|赛车手"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 155,
+    "query": [
+      "天降竹马永远的神"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "teardown": [],
+      "text": [
+        "青梅竹马|竹马"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 156,
+    "query": [
+      "齐司礼的心里话"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "teardown": [],
+      "text": [
+        "齐司礼"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 157,
+    "query": [
+      "陆沉的兔子小姐"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "teardown": [],
+      "text": [
+        "你的温柔总裁已上线|陆沉"
+      ],
+      "to_speak": ""
+    },
+    "domain": "baike"
+  },
+  {
+    "id": 158,
+    "query": [
+      "25小时后提醒我"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "日程提醒",
+        "闹钟提醒"
+      ],
+      "to_speak": "",
+      "package": "com.android.calendar"
+    },
+    "domain": "calendar",
+    "app": "日历"
+  },
+  {
+    "id": 159,
+    "query": [
+      "明天上午七点提醒我做早餐"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "07:00",
+        "闹钟提醒|日历",
+        "com.miui.voiceassist:id/sbtn_switch"
+      ],
+      "to_speak": "",
+      "package": "com.android.calendar"
+    },
+    "domain": "calendar",
+    "app": "日历"
+  },
+  {
+    "id": 160,
+    "query": [
+      "后天上午8点提醒我开会"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "08:00",
+        "闹钟提醒"
+      ],
+      "to_speak": "",
+      "package": "com.android.calendar"
+    },
+    "domain": "calendar",
+    "app": "日历"
+  },
+  {
+    "id": 161,
+    "query": [
+      "修改日历"
+    ],
+    "check_point": {
+      "activity": "com.android.calendar",
+      "nd": "",
+      "resource-id": "",
+      "text": "",
+      "to_speak": "",
+      "package": "com.android.calendar"
+    },
+    "domain": "calendar"
+  },
+  {
+    "id": 162,
+    "query": [
+      {
+        "uri": "https://cnbj1.fds.api.xiaomi.com/aife/et/land/5o76j90q.html"
+      }
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.browser/.BrowserActivity",
+        "com.android.browser.BrowserActivity"
+      ],
+      "text": [
+        "|",
+        "立即体验",
+        "日程跨端查询",
+        "日程"
+      ],
+      "package": "com.android.calendar"
+    },
+    "domain": "calendar"
+  },
+  {
+    "id": 163,
+    "query": [
+      {
+        "uri": "intent://com.android.calendar/time/1652083541769#Intent;scheme=content;launchFlags=0x10000000;component=com.android.calendar/.AllInOneActivity;end"
+      }
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.calendar/.AllInOneActivity",
+        "com.android.calendar.AllInOneActivity"
+      ],
+      "text": [
+        "年",
+        "月"
+      ],
+      "package": "com.android.calendar"
+    },
+    "domain": "calendar"
+  },
+  {
+    "id": 164,
+    "query": [
+      "今天有什么课|周五的课程表|今天有体育课吗"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "上午课程"
+      ]
+    },
+    "domain": "classschedule"
+  },
+  {
+    "id": 165,
+    "query": [
+      "今天有体育课吗"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "上午课程"
+      ]
+    },
+    "domain": "classschedule"
+  },
+  {
+    "id": 166,
+    "query": [
+      "打开课程表设置"
+    ],
+    "check_point": {
+      "activity": "com.miui.voiceassist",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "基本设置",
+        "周数"
+      ]
+    },
+    "domain": "classschedule"
+  },
+  {
+    "id": 167,
+    "query": [
+      {
+        "uri": "https://cnbj1.fds.api.xiaomi.com/aife/et/land/wim9fq7b.html"
+      }
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.browser/.BrowserActivity",
+        "com.android.browser.BrowserActivity"
+      ],
+      "text": [
+        "|",
+        "立即体验",
+        "小爱课程表",
+        "课程表"
+      ],
+      "package": "com.android.browser"
+    },
+    "domain": "classschedule"
+  },
+  {
+    "id": 168,
+    "query": [
+      {
+        "uri": "intent://aiweb?url=https%3A%2F%2Fi.ai.mi.com%2Fh5%2Fprecache%2Fai-schedule%2F%23%2Fhome&flag=805339136&noBack=false&statusBarColor=FFFFFF&statusBarTextBlack=true&navigationBarColor=FFFFFF#Intent;scheme=voiceassist;package=com.miui.voiceassist;end"
+      }
+    ],
+    "check_point": {
+      "activity": "com.miui.voiceassist/com.xiaomi.voiceassistant.web.container.AiWebActivity",
+      "text": [
+        "第",
+        "周"
+      ]
+    },
+    "domain": "classschedule"
+  },
+  {
+    "id": 169,
+    "query": [
+      "现在几点"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/time_time|com.miui.voiceassist:id/lyt_icon",
+      "text": "时钟",
+      "to_speak": "现在|当前",
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock"
+  },
+  {
+    "id": 170,
+    "query": [
+      "今天是几号"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/txv_query",
+      "text": [
+        "年",
+        "月",
+        "日"
+      ],
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock"
+  },
+  {
+    "id": 171,
+    "query": [
+      "今日农历"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/template_time_root_layout",
+      "text": [
+        "今日|农历"
+      ],
+      "to_speak": "",
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock"
+  },
+  {
+    "id": 172,
+    "query": [
+      "纽约现在几号啦"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/txv_query",
+      "text": [
+        "年",
+        "月",
+        "日"
+      ],
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock"
+  },
+  {
+    "id": 173,
+    "query": [
+      "国庆节怎么放假"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/date_date|com.miui.voiceassist:id/template_time_root_layout",
+      "text": "",
+      "to_speak": "国庆节",
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock",
+    "app": "日历"
+  },
+  {
+    "id": 174,
+    "query": [
+      "愚人节是什么时候"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/template_time_root_layout",
+      "text": [
+        "年",
+        "月",
+        "日",
+        "愚人节"
+      ],
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock",
+    "app": "日历"
+  },
+  {
+    "id": 175,
+    "query": [
+      "正月初一是几号"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/txv_query",
+      "text": [
+        "年",
+        "月",
+        "日",
+        "初一"
+      ],
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock",
+    "app": "日历"
+  },
+  {
+    "id": 176,
+    "query": [
+      "距离春节还有多少天|离春节还有多久"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/date_date|com.miui.voiceassist:id/lyt_icon|com.miui.voiceassist:id/template_time_root_layout",
+      "text": [],
+      "to_speak": "春节",
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock"
+  },
+  {
+    "id": 177,
+    "query": [
+      {
+        "uri": "intent://deskclock.android.com/main#Intent;scheme=deskclock;launchFlags=0x10000000;i.navigation_tab=1;end"
+      }
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.deskclock/.DeskClockTabActivity",
+        "com.android.deskclock.DeskClockTabActivity"
+      ],
+      "text": "时钟",
+      "package": "com.android.deskclock"
+    },
+    "domain": "clock"
+  },
+  {
+    "id": 178,
+    "query": [
+      "打开腾讯视频|下载腾讯视频"
+    ],
+    "check_point": {
+      "activity": "com.tencent.qqlive",
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "正在打开|下载|安装"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 179,
+    "query": [
+      "打开美团"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "text": "下载",
+      "to_speak": ""
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 180,
+    "query": [
+      "打开QQ音乐"
+    ],
+    "check_point": {
+      "activity": "com.tencent.qqmusic",
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "你还没有|点击安装|下载"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 181,
+    "query": [
+      "打开喜马拉雅"
+    ],
+    "check_point": {
+      "activity": "com.ximalaya.ting.android",
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "你还没有|点击安装|下载"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 182,
+    "query": [
+      "打开优酷视频"
+    ],
+    "check_point": {
+      "activity": "com.youku.phone",
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "你还没有|点击安装|下载"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 183,
+    "query": [
+      "打开QQ"
+    ],
+    "check_point": {
+      "activity": "com.tencent.mobileqq",
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "你还没有|点击安装|下载"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 184,
+    "query": [
+      "打开指南针"
+    ],
+    "check_point": {
+      "activity": "com.miui.compass",
+      "nd": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 185,
+    "query": [
+      "打开抖音"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.ss.android.ugc.aweme",
+        "com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity"
+      ],
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "你还没有抖音|点击安装|下载|推荐",
+      "package": "com.ss.android.ugc.aweme"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 186,
+    "query": [
+      "打开快手"
+    ],
+    "check_point": {
+      "activity": "com.smile.gifmaker",
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "你还没有快手|安装|下载"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 187,
+    "query": [
+      "小米扫一扫"
+    ],
+    "check_point": {
+      "activity": "com.xiaomi.scanner/.app.ScanActivity",
+      "nd": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 188,
+    "query": [
+      "打开滴滴"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.lbe.security.miui/com.android.packageinstaller.permission.ui.GrantPermissionsActivity",
+        "com.sdu.didi.psnger"
+      ],
+      "nd": "",
+      "or": "true",
+      "text": [
+        "|",
+        "你还没有",
+        "安装",
+        "下载"
+      ],
+      "to_speak": "",
+      "package": "com.lbe.security.miui"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 189,
+    "query": [
+      "打开计时器"
+    ],
+    "check_point": {
+      "activity": "com.android.deskclock",
+      "nd": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 190,
+    "query": [
+      "打开新浪网"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "text": [
+        "|",
+        "百度",
+        "新浪网"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 191,
+    "query": [
+      "打开应用至尊蓝月"
+    ],
+    "check_point": {
+      "activity": "com.zzlywgl.h5.zzly2",
+      "nd": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 192,
+    "query": [
+      "打开QQ扫一扫"
+    ],
+    "check_point": {
+      "activity": "com.tencent.mobileqq",
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 193,
+    "query": [
+      "打开QQ游戏"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.browser/.BrowserActivity",
+        "com.android.browser.BrowserActivity"
+      ],
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "",
+      "package": "com.android.browser"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 194,
+    "query": [
+      "打开QQ微视"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.tencent.mobileqq/.activity.SplashActivity",
+        "com.tencent.mobileqq.activity.SplashActivity"
+      ],
+      "nd": "",
+      "or": "true",
+      "text": "",
+      "to_speak": "",
+      "package": "com.tencent.mobileqq"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 195,
+    "query": [
+      "打开QQ坦白说"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.tencent.mobileqq/.search.activity.UniteSearchActivity",
+        "com.tecent.mobileqq.search.activity.UniteSearchActivity"
+      ],
+      "nd": "",
+      "or": "true",
+      "text": "坦白说",
+      "to_speak": "",
+      "package": "com.tencent.mobileqq"
+    },
+    "domain": "mobileApp"
+  },
+  {
+    "id": 196,
+    "query": [
+      "用百度地图骑车去朝阳大悦城"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "text": [
+        "朝阳大悦城"
+      ],
+      "package": "com.baidu.BaiduMap"
+    },
+    "domain": "mapApp",
+    "app": "百度地图"
+  },
+  {
+    "id": 197,
+    "query": [
+      "查一下五彩城在哪"
+    ],
+    "check_point": {
+      "activity": "com.baidu.BaiduMap",
+      "nd": "",
+      "resource-id": "",
+      "text": "五彩城",
+      "package": "com.baidu.BaiduMap"
+    },
+    "domain": "mapApp",
+    "app": "百度地图"
+  },
+  {
+    "id": 198,
+    "query": [
+      "我要导航北京大学"
+    ],
+    "check_point": {
+      "activity": "com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity",
+      "nd": "",
+      "resource-id": "",
+      "txt": "北京大学",
+      "package": "com.autonavi.minimap"
+    },
+    "domain": "mapApp",
+    "app": "高德地图"
+  },
+  {
+    "id": 199,
+    "query": [
+      "用腾讯地图帮我导航回家"
+    ],
+    "check_point": {
+      "activity": "com.tencent.map",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "米",
+        "进入",
+        "路"
+      ],
+      "package": "com.tencent.map"
+    },
+    "domain": "mapApp",
+    "app": "腾讯地图"
+  },
+  {
+    "id": 200,
+    "query": [
+      "我的位置|我在哪里"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.autonavi.minimap:id/slidecontainer_header",
+      "text": [
+        ""
+      ],
+      "to_speak": ""
+    },
+    "domain": "mapApp"
+  },
+  {
+    "id": 201,
+    "query": [
+      "333路到哪了"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "text": [
+        "|",
+        "分钟",
+        "方向",
+        "到站"
+      ],
+      "package": "com.autonavi.minimap"
+    },
+    "domain": "mapApp",
+    "app": "高德地图"
+  },
+  {
+    "id": 202,
+    "query": [
+      {
+        "uri": "intent://i.ai.mi.com/h5/ai-ak-fe/#/topic-detail-new?id=6#Intent;scheme=https;component=com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity;launchFlags=0x10000000;S.statusBarTextBlack=false;S.webFullScreen=true;B.useCommonBg=true;B.showVoiceBall=true;end"
+      }
+    ],
+    "check_point": {
+      "activity": "com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity",
+      "text": [
+        "疫情|新增"
+      ]
+    },
+    "domain": "mapApp"
+  },
+  {
+    "id": 203,
+    "query": [
+      "出发去公司"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.baidu.BaiduMap/com.baidu.baidumaps.MapsActivity|com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity|com.tencent.map/.WelcomeActivity",
+        "com.tencent.map.WelcomeActivity"
+      ],
+      "text": [
+        "公里",
+        "分",
+        "米"
+      ],
+      "package": "com.baidu.BaiduMap"
+    },
+    "domain": "mapApp"
+  },
+  {
+    "id": 204,
+    "query": [
+      "打开导航"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.baidu.BaiduMap",
+        "com.tencent.map",
+        "com.autonavi.minimap"
+      ],
+      "text": ""
+    },
+    "domain": "mapApp"
+  },
+  {
+    "id": 205,
+    "query": [
+      "上班导航"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.baidu.BaiduMap",
+        "com.tencent.map",
+        "com.autonavi.minimap"
+      ],
+      "text": [
+        "米",
+        "分"
+      ]
+    },
+    "domain": "mapApp"
+  },
+  {
+    "id": 206,
+    "query": [
+      "使用百度地图打车"
+    ],
+    "check_point": {
+      "activity": "com.baidu.BaiduMap/com.baidu.baidumaps.MapsActivity",
+      "text": [
+        "|",
+        "位置",
+        "路线"
+      ]
+    },
+    "domain": "mapApp"
+  },
+  {
+    "id": 207,
+    "query": [
+      {
+        "uri": "amapuri://drive/takeTaxi?sourceApplication=AmapPush&slat=${slat}&slon=${slon}&sname=${sname}&dlat=${dlat}&dlon=${dlon}&dname=${dname}"
+      }
+    ],
+    "check_point": {
+      "activity": "com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity",
+      "text": "打车"
+    },
+    "domain": "mapApp"
+  },
+  {
+    "id": 208,
+    "query": [
+      {
+        "negscreen": ""
+      }
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.personalassistant:id/container|com.miui.personalassistant:id/shrink_layout",
+      "text": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 209,
+    "query": [
+      "屏幕亮度增加30%"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_source|com.miui.voiceassist:id/lyt_icon|com.miui.voiceassist:id/mobile_control_content_parent",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 210,
+    "query": [
+      "屏幕亮度调到80"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_source|com.miui.voiceassist:id/lyt_icon|com.miui.voiceassist:id/mobile_control_content_parent",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 211,
+    "query": [
+      "屏幕暗一点"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "or": "true",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_source|com.miui.voiceassist:id/mobile_control_content_parent",
+      "text": [
+        "亮度"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 212,
+    "query": [
+      "音量调到零"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/middle_seekbar",
+      "text": [],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 213,
+    "query": [
+      "打开蓝牙|帮我打开蓝牙|开启蓝牙"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "true"
+      },
+      "text": [
+        "蓝牙"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 214,
+    "query": [
+      "关闭蓝牙"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "false"
+      },
+      "text": [
+        "蓝牙"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 215,
+    "query": [
+      "打开热点|打开个人热点|打开手机热点"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "true"
+      },
+      "teardown": [
+        "关闭手机热点",
+        {
+          "wait": 2
+        },
+        "打开wifi",
+        {
+          "wifi": "on"
+        }
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 216,
+    "query": [
+      "打开wifi设置"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "com.android.settings",
+      "text": [
+        "WLAN"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 217,
+    "query": [
+      "关闭个人热点|关闭热点"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "false"
+      },
+      "text": [
+        "热点"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 218,
+    "query": [
+      "打开WIFI|连接网络|连接WIFI|打开无线网络|打开WIFI"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "true"
+      },
+      "text": [
+        "WIFI|无线网络"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 219,
+    "query": [
+      "关闭飞行模式"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "false"
+      },
+      "text": [
+        "飞行模式"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 220,
+    "query": [
+      "打开NFC|设置NFC"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "or": "true",
+      "resource-id": "",
+      "text": "NFC",
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 221,
+    "query": [
+      "勿扰模式"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "勿扰模式"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 222,
+    "query": [
+      "关闭gps|打开定位|关闭位置服务|打开gps|打开GPS"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "teardown": [
+        "打开gps"
+      ],
+      "text": [
+        "GPS|位置服务"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 223,
+    "query": [
+      "关闭流量|关闭数据流量|关闭数据网络|关闭移动数据|关闭数据"
+    ],
+    "check_point": {
+      "nd": "",
+      "or": "true",
+      "resource-id": "",
+      "text": [
+        "数据"
+      ],
+      "to_speak": "未检测到电话卡"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 224,
+    "query": [
+      "打开勿扰模式|开启勿扰模式"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "true"
+      },
+      "text": [
+        "勿扰模式"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 225,
+    "query": [
+      "关闭勿扰模式"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "false"
+      },
+      "text": [
+        "勿扰模式"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 226,
+    "query": [
+      "打开静音"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "true"
+      },
+      "text": [
+        "静音"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 227,
+    "query": [
+      "关闭静音模式|取消静音|关闭静音"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "false"
+      },
+      "teardown": [
+        "打开静音模式"
+      ],
+      "text": [
+        "静音"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 228,
+    "query": [
+      "方向锁定"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/tv_main_title",
+      "text": "方向锁定"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 229,
+    "query": [
+      "手电筒"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "teardown": [
+        "关闭手电筒"
+      ],
+      "text": [
+        "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+        "手电筒"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 230,
+    "query": [
+      "手电筒"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "teardown": [
+        "关闭手电筒"
+      ],
+      "text": [
+        "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+        "手电筒"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 231,
+    "query": [
+      "打开省电模式|开启省电模式"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "true"
+      },
+      "text": [
+        "省电模式"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 232,
+    "query": [
+      "关闭省电模式|关掉省电模式"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "false"
+      },
+      "text": [
+        "省电模式"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 233,
+    "query": [
+      "打开talkback|开启屏幕阅读器"
+    ],
+    "check_point": {
+      "text": [
+        "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 234,
+    "query": [
+      "关闭talkback"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "text": [
+        "TALKBACK已关闭",
+        "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 235,
+    "query": [
+      "打开单手模式"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "text": [
+        "启用单手模式|单手模式"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 236,
+    "query": [
+      "打开颜色反转|颜色反转"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "text": [
+        "颜色反转",
+        "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 237,
+    "query": [
+      "关闭颜色反转"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "text": [
+        "颜色反转",
+        "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 238,
+    "query": [
+      "设置音乐播放源|音乐播放源|更改音乐源"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.miui.voiceassist/com.xiaomi.voiceassistant.MusicSettingActivity",
+        "com.miui.voiceassist/com.xiaomi.voiceassistant.settings.MusicSettingActivity"
+      ],
+      "resource-id": "",
+      "text": [
+        "音乐播放源",
+        "智能选择"
+      ],
+      "to_speak": "",
+      "package": "com.miui.voiceassist"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 239,
+    "query": [
+      "将QQ音乐设置为音乐源"
+    ],
+    "check_point": {
+      "activity": "com.miui.voiceassist/com.xiaomi.voiceassistant.settings.MusicSettingActivity",
+      "or": "true",
+      "resource-id": "",
+      "text": [],
+      "to_speak": "设置成功"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 240,
+    "query": [
+      "将小米音乐设置为默认音乐播放源"
+    ],
+    "check_point": {
+      "activity": "com.miui.voiceassist/com.xiaomi.voiceassistant.settings.MusicSettingActivity",
+      "resource-id": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 241,
+    "query": [
+      "将网易云音乐设置为我的播放源|将网易云音乐设置为音乐源|设置网易云音乐为播放源|设置网易云音乐为音乐默认播放源|将网易云音乐变更为默认音乐源"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        ""
+      ],
+      "to_speak": "暂不支持|设置成功|安装|你还没有"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 242,
+    "query": [
+      "设置音乐播放源"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.miui.voiceassist/com.xiaomi.voiceassistant.MusicSettingActivity",
+        "com.miui.voiceassist/com.xiaomi.voiceassistant.settings.MusicSettingActivity"
+      ],
+      "resource-id": "",
+      "text": [
+        "智能选择"
+      ],
+      "to_speak": "",
+      "package": "com.miui.voiceassist"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 243,
+    "query": [
+      "明天上午10点提醒我买菜"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "",
+      "text": [
+        "10:00",
+        "买菜"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 244,
+    "query": [
+      "打开振动模式"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "true"
+      },
+      "text": [
+        "振动"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 245,
+    "query": [
+      "关闭振动模式"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/sliding_btn|com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "false"
+      },
+      "text": [
+        "振动"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 246,
+    "query": [
+      "打开桌面设置页面"
+    ],
+    "check_point": {
+      "activity": "HomeSettingActivity",
+      "text": [
+        "默认桌面"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 247,
+    "query": [
+      "关闭同步"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "com.miui.voiceassist:id/sbtn_switch",
+      "status": {
+        "checked": "false"
+      },
+      "to_speak": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 248,
+    "query": [
+      "关闭语音唤醒"
+    ],
+    "check_point": {
+      "resource-id": "android:id/checkbox",
+      "status": {
+        "checked": "false"
+      },
+      "text": [
+        "语音唤醒"
+      ]
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 249,
+    "query": [
+      "打开语音唤醒"
+    ],
+    "check_point": {
+      "resource-id": "",
+      "text": [
+        "录制语音唤醒词|去录制唤醒词|重新录制唤醒词|语音唤醒"
+      ]
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 250,
+    "query": [
+      "打开地震报警"
+    ],
+    "check_point": {
+      "text": "地震预警"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 251,
+    "query": [
+      "打开5G网络"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "MobileNetworkSettings|com.android.phone/settings.MiuiFivwGNetworkSetting",
+        "com.android.phone.settings.MiuiFivwGNetworkSetting"
+      ],
+      "or": "true",
+      "text": [
+        "不支持|启用5G网络"
+      ],
+      "package": "MobileNetworkSettings|com.android.phone"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 252,
+    "query": [
+      "关闭5G"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "MobileNetworkSettings|com.android.phone/settings.MiuiFivwGNetworkSetting",
+        "com.android.phone.settings.MiuiFivwGNetworkSetting"
+      ],
+      "or": "true",
+      "text": [
+        "不支持|启用5G网络|5G网络"
+      ],
+      "package": "MobileNetworkSettings|com.android.phone"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 253,
+    "query": [
+      "打开热点"
+    ],
+    "check_point": {
+      "teardown": [
+        "关闭热点"
+      ],
+      "text": [
+        "个人热点已打开|个人热点已开启"
+      ]
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 254,
+    "query": [
+      "把闹钟音量调大一点"
+    ],
+    "check_point": {
+      "image": 24,
+      "resource-id": "com.miui.voiceassist:id/iv_start_icon",
+      "text": ""
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 255,
+    "query": [
+      "图标变大"
+    ],
+    "check_point": {
+      "text": [
+        "|",
+        "图标大小",
+        "图标风格"
+      ]
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 256,
+    "query": [
+      "设置通话录音"
+    ],
+    "check_point": {
+      "text": [
+        "|",
+        "通话录音",
+        "电话"
+      ]
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 257,
+    "query": [
+      "关闭单手模式"
+    ],
+    "check_point": {
+      "text": [
+        "|",
+        "启用单手模式",
+        "单手模式"
+      ]
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 258,
+    "query": [
+      "流量设置"
+    ],
+    "check_point": {
+      "activity": "com.miui.securitycenter/com.miui.networkassistant.ui.NetworkAssistantActivity",
+      "text": [
+        "网络助手|统计应用的流量使用信息"
+      ]
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 259,
+    "query": [
+      "打开USB网络共享"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.settings/.SubSettings",
+        "com.android.settings.SubSettings"
+      ],
+      "text": [
+        "蓝牙网络共享",
+        "设置",
+        "单次热点流量限额"
+      ],
+      "package": "com.android.settings"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 260,
+    "query": [
+      "录制屏幕"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.home/.launcher.Launcher",
+        "com.miui.home.launcher.Launcher"
+      ],
+      "image": 70,
+      "package": "com.miui.home"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 261,
+    "query": [
+      "关闭桌面设置"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.home/.settings.MiuiHomeSettingActivity",
+        "com.miui.home.settings.MiuiHomeSettingActivity"
+      ],
+      "text": "桌面",
+      "package": "com.miui.home"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 262,
+    "query": [
+      "连接热点"
+    ],
+    "check_point": {
+      "text": "个人热点已打开"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 263,
+    "query": [
+      "公交卡"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.tsmclient/.ui.quick.DoubleClickActivity",
+        "com.miui.tsmclient.ui.quick.DoubleClickActivity"
+      ],
+      "text": "手机就是交通卡",
+      "package": "com.miui.tsmclient"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 264,
+    "query": [
+      "门禁卡"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.miui.tsmclient/.ui.quick.DoubleClickActivity",
+        "com.miui.tsmclient.ui.quick.DoubleClickActivity"
+      ],
+      "text": "门卡",
+      "package": "com.miui.tsmclient"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 265,
+    "query": [
+      "流量"
+    ],
+    "check_point": {
+      "text": [
+        "|",
+        "未检测到电话卡",
+        "已切换数据网络状态"
+      ]
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 266,
+    "query": [
+      "快速充电"
+    ],
+    "check_point": {
+      "activity": "MobileNetworkSettings",
+      "or": "true",
+      "to_speak": "不支持"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 267,
+    "query": [
+      "设置勿扰模式"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.settings/.SubSettings",
+        "com.android.settings.SubSettings"
+      ],
+      "text": [
+        "|",
+        "铃声",
+        "勿扰"
+      ],
+      "package": "com.android.settings"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 268,
+    "query": [
+      "高级WIFI选择打开"
+    ],
+    "check_point": {
+      "activity": "",
+      "text": "已打开"
+    },
+    "domain": "mobileControl"
+  },
+  {
+    "id": 269,
+    "query": [
+      "打电话给10086"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.android.incallui/.InCallActivity",
+        "com.android.server.telecom/.components.ErrorDialogActivity"
+      ],
+      "resource-id": "",
+      "teardown": [
+        {
+          "shell": "input keyevent KEYCODE_ENDCALL"
+        }
+      ],
+      "text": "",
+      "to_speak": "",
+      "package": "com.android.incallui"
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 270,
+    "query": [
+      "用卡一打电话给15131137957"
+    ],
+    "check_point": {
+      "activity": "com.android.incallui/.InCallActivity",
+      "resource-id": "",
+      "teardown": [
+        {
+          "shell": "input keyevent KEYCODE_ENDCALL"
+        }
+      ],
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 271,
+    "query": [
+      "用卡二打电话给15131137957"
+    ],
+    "check_point": {
+      "activity": "com.android.incallui/.InCallActivity",
+      "resource-id": "",
+      "teardown": [
+        {
+          "shell": "input keyevent KEYCODE_ENDCALL"
+        }
+      ],
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 272,
+    "query": [
+      "给妹妹打电话"
+    ],
+    "check_point": {
+      "activity": "com.android.incallui/.InCallActivity",
+      "resource-id": "",
+      "teardown": [
+        {
+          "shell": "input keyevent KEYCODE_ENDCALL"
+        }
+      ],
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 273,
+    "query": [
+      "重拨电话|重新呼叫"
+    ],
+    "check_point": {
+      "activity": "com.android.incallui/.InCallActivity",
+      "or": "true",
+      "resource-id": "",
+      "teardown": [
+        {
+          "shell": "input keyevent KEYCODE_ENDCALL"
+        }
+      ],
+      "text": "网络",
+      "to_speak": ""
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 274,
+    "query": [
+      "查询张若涵的号码"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/action_image",
+      "text": [
+        "张若涵"
+      ],
+      "to_speak": ""
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 275,
+    "query": [
+      "查询小明的号码"
+    ],
+    "check_point": {
+      "resource-id": "com.miui.voiceassist:id/core_list_item_layout",
+      "status": {
+        "index": 1,
+        "resource-id": "com.miui.voiceassist:id/core_list_item_layout"
+      },
+      "text": "小明",
+      "to_speak": ""
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 276,
+    "query": [
+      "查询张若涵的号码"
+    ],
+    "check_point": {
+      "activity": "com.miui.home",
+      "resource-id": "",
+      "text": "",
+      "to_speak": ""
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 277,
+    "query": [
+      "关闭一键呼叫"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.contacts/.quickdial.QuickDialSettingActivity",
+        "com.android.contacts.quickdial.QuickDialSettingActivity"
+      ],
+      "text": "一键拨号",
+      "package": "com.android.contacts"
+    },
+    "domain": "phonecall"
+  },
+  {
+    "id": 278,
+    "query": [
+      "我要抢票"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.mqunar.react.base.stack.container.QReactNativeActivity1",
+        "com.Qunar"
+      ],
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "选择日期",
+        "票信息",
+        "火车票",
+        "乘客信息",
+        "立即参与",
+        "出发地",
+        "出行日期",
+        "点我抢票",
+        "下一步",
+        "联系手机"
+      ],
+      "to_speak": "",
+      "package": "com.Qunar"
+    },
+    "domain": "transportTicket",
+    "app": "去哪儿"
+  },
+  {
+    "id": 279,
+    "query": [
+      "帮我抢明天从北京到天津的火车票"
+    ],
+    "check_point": {
+      "activity": "com.Qunar",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "北京",
+        "天津"
+      ],
+      "to_speak": "",
+      "package": "com.Qunar"
+    },
+    "domain": "transportTicket",
+    "app": "去哪儿"
+  },
+  {
+    "id": 280,
+    "query": [
+      "订火车票"
+    ],
+    "check_point": {
+      "activity": [
+        "|",
+        "com.Qunar",
+        "com.miui.hybrid"
+      ],
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        ""
+      ],
+      "to_speak": "",
+      "package": "com.Qunar"
+    },
+    "domain": "transportTicket",
+    "app": "去哪儿"
+  },
+  {
+    "id": 281,
+    "query": [
+      "帮我抢1月31号北京到上海的火车票"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "北京",
+        "上海",
+        "1月31日"
+      ],
+      "to_speak": "",
+      "package": "com.Qunar"
+    },
+    "domain": "transportTicket",
+    "app": "去哪儿"
+  },
+  {
+    "id": 282,
+    "query": [
+      "查询抢票进度"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "填写抢票信息",
+        "购票信息"
+      ],
+      "to_speak": "",
+      "package": "com.Qunar"
+    },
+    "domain": "transportTicket",
+    "app": "去哪儿"
+  },
+  {
+    "id": 283,
+    "query": [
+      "春运抢票"
+    ],
+    "check_point": {
+      "activity": "com.Qunar/com.mqunar.react.base.stack.container.QReactNativeActivity1",
+      "nd": "",
+      "resource-id": "",
+      "text": "抢票信息",
+      "to_speak": "",
+      "package": "com.Qunar"
+    },
+    "domain": "transportTicket",
+    "app": "去哪儿"
+  },
+  {
+    "id": 284,
+    "query": [
+      "今天的天气"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": "天气",
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 285,
+    "query": [
+      "现在的天气"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "小米天气|天气"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 286,
+    "query": [
+      "现在的天气"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "度",
+        "°"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 287,
+    "query": [
+      "空气质量"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "天气",
+        "明天",
+        "预报"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 288,
+    "query": [
+      "下周二天气怎么样"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "小米天气",
+        "天气"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 289,
+    "query": [
+      "未来一周的温度"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "小米天气|天气",
+        "天天气"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 290,
+    "query": [
+      "今天有雨吗?空气质量怎么样?温度怎么样?"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "天气|明天|预报",
+        "度"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 291,
+    "query": [
+      "上海的天气怎么样"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "小米天气",
+        "天气"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 292,
+    "query": [
+      "这周末上海的天气怎么样|周末的天气"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "天气",
+        "小米天气"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 293,
+    "query": [
+      "纽约天气怎么样"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "天气",
+        "小米天气"
+      ],
+      "to_speak": "纽约",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 294,
+    "query": [
+      "泰国天气怎么样"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "天气",
+        "小米天气"
+      ],
+      "to_speak": "泰国",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 295,
+    "query": [
+      "明天的空气质量|今天的空气质量"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "|",
+        "天气",
+        "明天",
+        "预报"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 296,
+    "query": [
+      "广东天气"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "广州",
+        "天气"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 297,
+    "query": [
+      "明天下雨吗？"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "海淀|武汉"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 298,
+    "query": [
+      "现在天气"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "天气",
+        "北京|武汉|海淀"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 299,
+    "query": [
+      "现在紫外线"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "紫外线指数"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 300,
+    "query": [
+      "现在外面多少度"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "现在",
+        "度"
+      ],
+      "to_speak": "",
+      "package": "com.miui.weather2"
+    },
+    "domain": "weather"
+  },
+  {
+    "id": 301,
+    "query": [
+      "我想看机器人争霸"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "我想看机器人争霸"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 302,
+    "query": [
+      "我想看电影极限特工"
+    ],
+    "check_point": {
+      "nd": "",
+      "ocr": {
+        "text": [
+          "极限特工|极限特工 2|播放源"
+        ]
+      },
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 303,
+    "query": [
+      "我想看电视剧延禧攻略"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "没问题|好的|好呢|好啊|好呀|为您推荐|小爱为您找到"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 304,
+    "query": [
+      "我想看吐槽大会"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "第五季|第四季"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 305,
+    "query": [
+      "我想看三生三世十里桃花"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more|com.miui.voiceassist:id/large_card_more1",
+      "text": [
+        "十里桃花"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 306,
+    "query": [
+      "我想看这就是街舞第二季"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "街舞|视频搜索"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 307,
+    "query": [
+      "小猪佩奇"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "text": [
+        "小猪佩奇",
+        "分"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 308,
+    "query": [
+      "正在上映的电影|最近有什么电影要上映"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "text": [
+        "院线|猫眼"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 309,
+    "query": [
+      "开心麻花的电影"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "text": [
+        "喜剧"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 310,
+    "query": [
+      "我想看央视综合频道"
+    ],
+    "check_point": {
+      "activity": [
+        "&",
+        "com.android.browser/.BrowserActivity",
+        "com.android.browser.BrowserActivity"
+      ],
+      "nd": "",
+      "ocr": {
+        "text": [
+          "CCTV-1综合|选台|cctv-1|综合频道|CCTV"
+        ]
+      },
+      "to_speak": "",
+      "package": "com.android.browser"
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 311,
+    "query": [
+      "最新电视剧"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "没问题|好的|好呢|好啊|好呀"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 312,
+    "query": [
+      "最新电影|豆瓣高分电影|即将上映的电影|经典电影"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "电影"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 313,
+    "query": [
+      "新番动漫|漫改动漫|日本动漫|完结动漫|中国动漫|游戏改编的动漫|轻小说改编的动漫|轻改动漫|经典动漫"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "没问题|好的|好呢|好啊|好呀|动漫"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 314,
+    "query": [
+      "热门电影"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "没问题|好的|好呢|好啊|好呀"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 315,
+    "query": [
+      "我要看电视剧"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more|com.miui.voiceassist:id/large_card_more1",
+      "teardown": [
+        "音量调到最小"
+      ],
+      "text": [
+        "电视剧|卿卿日常|视频|狂飙"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 316,
+    "query": [
+      "我要看枪战片"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more|com.miui.voiceassist:id/large_card_more1",
+      "text": [
+        "速度与激情|代号|碟中谍"
+      ],
+      "to_speak": ""
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 317,
+    "query": [
+      {
+        "uri": "intent://i.ai.mi.com/h5/ai-ak-fe/#/topic-detail-new?id=31#Intent;scheme=https;component=com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity;launchFlags=0x10000000;S.statusBarTextBlack=false;S.webFullScreen=true;B.useCommonBg=true;B.showVoiceBall=true;end"
+      }
+    ],
+    "check_point": {
+      "activity": "com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity",
+      "text": [
+        "剧集",
+        "综艺",
+        "动漫"
+      ]
+    },
+    "domain": "mobileVideo"
+  },
+  {
+    "id": 318,
+    "query": [
+      "播放静夜思"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/imv_play|com.miui.voiceassist:id/imv_pause",
+      "text": [
+        "静夜思",
+        "床",
+        "com.miui.voiceassist:id/imv_play|com.miui.voiceassist:id/imv_pause"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 319,
+    "query": [
+      "静夜思的作者是谁"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "李白"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 320,
+    "query": [
+      "疑是地上霜是什么意思"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "好像地上泛起了一层"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 321,
+    "query": [
+      "疑是地上霜的上一句是什么"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "床|光|静|李白"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 322,
+    "query": [
+      "低头思故乡"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "静夜思"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 323,
+    "query": [
+      "静夜思是什么朝代的诗"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "唐",
+        "静夜思"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 324,
+    "query": [
+      "床前明月光出自哪首诗"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "静夜思"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 325,
+    "query": [
+      "李白的诗"
+    ],
+    "check_point": {
+      "nd": "",
+      "resource-id": "",
+      "text": [
+        "李白",
+        "唐"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 326,
+    "query": [
+      "播放唐诗"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/imv_play|com.miui.voiceassist:id/imv_pause",
+      "text": [
+        "唐",
+        "com.miui.voiceassist:id/imv_pause"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 327,
+    "query": [
+      "背诵古诗"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/imv_play|com.miui.voiceassist:id/imv_pause",
+      "text": [
+        "唐|明|宋"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 328,
+    "query": [
+      "静夜思"
+    ],
+    "check_point": {
+      "activity": "",
+      "or": "true",
+      "resource-id": "com.miui.voiceassist:id/char_pinyin",
+      "text": [
+        "chuánɡ"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 329,
+    "query": [
+      "千字文"
+    ],
+    "check_point": {
+      "activity": "",
+      "nd": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": [
+        "诗词"
+      ],
+      "to_speak": ""
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 330,
+    "query": [
+      "古诗凤求凰的释义"
+    ],
+    "check_point": {
+      "activity": "",
+      "resource-id": "com.miui.voiceassist:id/voice_result_head_more",
+      "text": "古诗凤求凰的释义"
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 331,
+    "query": [
+      "迟日江山丽的迟日是什么意思"
+    ],
+    "check_point": {
+      "text": "春天日渐长，所以说迟日"
+    },
+    "domain": "ancientPoem"
+  },
+  {
+    "id": 332,
+    "query": [
+      {
+        "uri": "intent://i.ai.mi.com/h5/ai-ak-fe/#/topic-detail-new?id=26#Intent;scheme=https;component=com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity;launchFlags=0x10000000;S.statusBarTextBlack=false;S.webFullScreen=true;B.useCommonBg=true;B.showVoiceBall=true;end"
+      }
+    ],
+    "check_point": {
+      "activity": "com.miui.voiceassist/com.xiaomi.voiceassistant.webview.AiWebActivity",
+      "text": "古诗"
+    },
+    "domain": "ancientPoem"
+  }
+]
